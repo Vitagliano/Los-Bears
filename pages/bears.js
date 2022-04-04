@@ -258,11 +258,6 @@ export default function BearsPage() {
                 </div>
                 <div className="mt-6">
                   <nav className="grid gap-y-4">
-                    <Link href="/about">
-                      <button className="group flex items-center transition-all duration-500 ease-in-out text-black font-bold text-base ">
-                        About Us
-                      </button>
-                    </Link>
 
                     <Link href="/bears">
                       <button className="group flex items-center transition-all duration-500 ease-in-out text-black font-bold text-base ">
