@@ -1,5 +1,5 @@
 import Cors from "cors";
-import YellowHeartsAbi from "../../../contract/abis/YellowHearts.json";
+import LosBearsAbi from "../../../contract/abis/LosBears.json";
 import { ethers } from "ethers";
 
 export default async function handler(req, res) {
@@ -14,18 +14,18 @@ export default async function handler(req, res) {
     const web3 = new ethers.providers.JsonRpcProvider(
       process.env.NEXT_PUBLIC_NETWORK_RPC
     );
-    // Loading YellowHearts abi
+    // Loading LosBears abi
     const contract = new ethers.Contract(
       process.env.NEXT_PUBLIC_CONTRACT_ADDRESS,
-      YellowHeartsAbi,
+      LosBearsAbi,
       web3
     );
 
-    // Check if heart has owner
+    // Check if bear has owner
     contract
       .ownerOf(id)
       .then(() => {
-        // Fetch the heart metadata
+        // Fetch the bear metadata
         fetch(`${process.env.METADATA_URL}/${id}.json`)
           .then((response) => response.json())
           .then((metadata) => {
@@ -37,7 +37,7 @@ export default async function handler(req, res) {
       })
       .catch(() => {
         res.status(404).json({
-          message: "Heart not found yet",
+          message: "Bear not found yet",
         });
       });
   } catch (error) {
