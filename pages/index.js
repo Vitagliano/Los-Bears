@@ -490,7 +490,7 @@ function Index() {
 
         <footer className="flex flex-col w-full items-center justify-center my-8">
           <div className="">
-            <a href="https://twitter.com/ftmbears">
+            <a href="https://twitter.com/LosBearsNFT">
               <button className="mr-2 text-black hover:text-blue-100 focus:bg-gray-300 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none bg-white rounded-2xl p-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -503,7 +503,7 @@ function Index() {
                 </svg>
               </button>
             </a>
-            <a href="https://discord.gg/RM49Sr3Jcn">
+            <a href="https://discord.com/invite/URXdWPQBRR">
               <button className="mr-2 text-black hover:text-blue-100 focus:bg-gray-300 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none bg-white rounded-2xl p-2">
                 <svg
                   className="h-6 w-6"
