@@ -99,11 +99,6 @@ export default function BearsPage() {
               className="hidden items-center md:flex space-x-10"
             >
               <div className="flex flex-row">
-                <Link href="/about">
-                  <button className="mr-6 hover:bg-blue-200 flex items-center transition-all duration-500 ease-in-out rounded-2xl text-black py-3 px-6 font-bold text-base border-2 leading-6">
-                    About Us
-                  </button>
-                </Link>
                 <Link href="/bears">
                   <button className="group flex items-center transition-all duration-500 ease-in-out hover:bg-blue-200 rounded-2xl text-black py-3 px-6 font-bold text-base border-2 border-black leading-6">
                     <svg
