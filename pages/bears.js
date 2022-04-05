@@ -101,22 +101,6 @@ export default function BearsPage() {
               <div className="flex flex-row">
                 <Link href="/bears">
                   <button className="group flex items-center transition-all duration-500 ease-in-out hover:bg-blue-200 rounded-2xl text-black py-3 px-6 font-bold text-base border-2 border-black leading-6">
-                    <svg
-                      className="stroke-transparent group-hover:stroke-blue-100"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M3.98389 11.6106L9.11798 18.5107C10.5955 20.4964 13.4045 20.4964 14.882 18.5107L20.0161 11.6106C21.328 9.84746 21.328 7.34218 20.0161 5.57906C18.0957 2.9981 13.6571 3.76465 12 6.54855C10.3429 3.76465 5.90428 2.9981 3.9839 5.57906C2.67204 7.34218 2.67203 9.84746 3.98389 11.6106Z"
-                        stroke="#1B1B1B"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
                     My Bears
                   </button>
                 </Link>
@@ -258,7 +242,6 @@ export default function BearsPage() {
                 </div>
                 <div className="mt-6">
                   <nav className="grid gap-y-4">
-
                     <Link href="/bears">
                       <button className="group flex items-center transition-all duration-500 ease-in-out text-black font-bold text-base ">
                         My Bears
