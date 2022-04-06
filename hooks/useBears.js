@@ -35,7 +35,7 @@ const useBears = (web3, account) => {
   };
 
   const getBearMetadata = async (BearId) => {
-    const response = await fetch(`/api/Bears/${BearId}.json`);
+    const response = await fetch(`/api/bears/${BearId}.json`);
     if (response.status === 200) {
       let data = await response.json();
       data = {
