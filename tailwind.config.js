@@ -15,6 +15,7 @@ module.exports = {
         100: "#add8e6",
         200: "#77bbd1",
       },
+      lightblue: "#d1f5ff",
     },
   },
   variants: {
