@@ -104,7 +104,7 @@ function Index() {
   async function claim() {
     if (account) {
       setIsClaiming(true);
-      setMintPrice(getMintPrice(isWhitelisted));
+      setMintPrice(getMintPrice(false));
       let _price = ethers.utils.parseUnits(
         String(mintPrice * mintQuantity),
         18
