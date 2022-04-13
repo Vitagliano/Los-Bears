@@ -18,7 +18,7 @@ function Team() {
       name: "Kinash",
       image:
         "https://media.discordapp.net/attachments/948088404967579648/963544733685276773/unknown.png",
-      role: "Developer",
+      role: "Contract Developer",
     },
     {
       name: "Vitagliano",
