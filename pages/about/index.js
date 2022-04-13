@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Popover, Transition } from "@headlessui/react";
 import { toast } from "react-toastify";
 
-import YellowHeartsAbi from "../../contract/abis/YellowHearts.json";
+import LosBearsAbi from "../../contract/abis/LosBears.json";
 
 import useWeb3 from "../../hooks/useWeb3";
 import { ethers } from "ethers";
@@ -32,7 +32,7 @@ function About() {
     if (active && web3) {
       let c = new ethers.Contract(
         contractAddress,
-        YellowHeartsAbi,
+        LosBearsAbi,
         web3.getSigner(account)
       );
 
