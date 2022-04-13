@@ -502,7 +502,38 @@ function Index() {
           <div className="flex flex-row justify-center items-center mb-4">
             <a href="https://nftkey.app/collections/losbears/">
               <button className="mr-2 text-black hover:text-blue-100 focus:bg-gray-300 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none bg-white rounded-2xl p-2">
-                NFTKey
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  className="w-6 h-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <ellipse
+                    cx="19.9999"
+                    cy="15.8"
+                    rx="8"
+                    ry="8"
+                    transform="rotate(-90 19.9999 15.8)"
+                    fill="black"
+                  />
+                  <circle
+                    cx="20.0499"
+                    cy="15.75"
+                    r="3.25"
+                    transform="rotate(-90 20.0499 15.75)"
+                    fill="white"
+                  />
+                  <rect
+                    x="22.8999"
+                    y="23.2"
+                    width="9"
+                    height="5.8"
+                    transform="rotate(90 22.8999 23.2)"
+                    fill="black"
+                  />
+                </svg>
               </button>
             </a>
             <a href="https://twitter.com/LosBearsNFT">

@@ -250,8 +250,8 @@ export default function BearsPage() {
 
       {active ? (
         <>
-          <div className="container mx-auto lg:grid grid-cols-3 grid-rows-1 sm:flex pt-8 gap-4 bg-white p-8 rounded-xl">
-            <h1 className="text-xl sm:text-3xl font-extrabold text-blue-200 mb-6">
+          <div className="container mx-auto lg:grid grid-cols-3 grid-rows-1 sm:flex pt-8 gap-4 bg-lightblue p-8 rounded-xl">
+            <h1 className="text-xl sm:text-3xl font-extrabold text-black mb-6">
               My Bears
             </h1>
             <ul className="grid grid-cols-1 sm:grid-cols-4 gap-4">

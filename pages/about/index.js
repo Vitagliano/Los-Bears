@@ -8,10 +8,8 @@ import YellowHeartsAbi from "../../contract/abis/YellowHearts.json";
 
 import useWeb3 from "../../hooks/useWeb3";
 import { ethers } from "ethers";
-import Button from "../../components/Button";
-import Partners from "../../components/Partners";
 import AboutUs from "../../components/AboutUs";
-import Slides from "../../components/Slides";
+import Team from "../../components/Team";
 
 const contractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
 const MINT_PRICE = Number(process.env.NEXT_PUBLIC_MINT_PRICE);
@@ -251,6 +249,7 @@ function About() {
       </div>
 
       <AboutUs />
+      <Team />
     </div>
   );
 }
