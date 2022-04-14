@@ -18,7 +18,7 @@ function About() {
   const { active, activate, deactivate, account, web3 } = useWeb3();
 
   const [contract, setContract] = useState(null);
-  const [maxMintCount, setMaxMintCount] = useState(0);
+  const [maxMintable, setmaxMintable] = useState(0);
   const [supply, setSupply] = useState(0);
   const [isClaiming, setIsClaiming] = useState(false);
 
@@ -37,24 +37,6 @@ function About() {
       );
 
       setContract(c);
-      c.totalSupply()
-        .then((supply) => {
-          setSupply(supply);
-        })
-        .catch((err) => {
-          setSupply(0);
-          setMaxMintCount(0);
-          setContract(null);
-          toast.error("Check if you are using Fantom Network", {
-            theme: "colored",
-          });
-        });
-
-      c.maxMintCount()
-        .then((maxMintCount) => {
-          setMaxMintCount(maxMintCount);
-        })
-        .catch((err) => console.log(err));
     }
   }, [active, web3]);
 
