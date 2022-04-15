@@ -12,7 +12,13 @@ function Team() {
       name: "Nikolas",
       image:
         "https://media.discordapp.net/attachments/948088404967579648/963514316257116181/15.png",
-      role: "Artist and Developer",
+      role: "Marketing and Developer",
+    },
+    {
+      name: "Community",
+      image:
+        "https://media.discordapp.net/attachments/948088404967579648/963515044522508298/ak2kw17j.gif",
+      role: "Everyone ❤",
     },
     {
       name: "Kinash",
@@ -35,7 +41,7 @@ function Team() {
         </h1>
       </div>
       <div className="flex items-center justify-between mt-10 mx-auto sm:mb-10 mb-16">
-        <div className="grid overflow-hidden lg:grid-cols-4 lg:grid-rows-2 gap-6 lg:grid-flow-row">
+        <div className="grid overflow-hidden lg:grid-cols-3 lg:grid-rows-2 gap-6 lg:grid-flow-row">
           {teamList.map((team, index) => (
             <div
               key={index}
@@ -46,9 +52,9 @@ function Team() {
                   <div className="bg-grey-100 rounded-md">
                     <div
                       style={{
-                        "backgroundImage": `url('` + team.image + `');`,
+                        backgroundImage: `url('` + team.image + `');`,
                       }}
-                      className="w-52 h-52 relative bg-cover flex justify-center flex-col rounded-md "
+                      className="w-72 h-72 relative bg-cover flex justify-center flex-col rounded-md "
                     >
                       <h1 className="bg-white text-black font-semibold text-left absolute top-6 left-0 px-2 py-1 text-lg ml-7 rounded-md ">
                         {team.name}

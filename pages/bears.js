@@ -104,11 +104,6 @@ export default function BearsPage() {
                     About Us
                   </button>
                 </Link>
-                <Link href="/bears">
-                  <button className="group flex items-center transition-all duration-500 ease-in-out hover:bg-blue-200 rounded-2xl text-black py-3 px-6 font-bold text-base border-2 border-black leading-6">
-                    My Bears
-                  </button>
-                </Link>
               </div>
               <button
                 className="bg-blue-100 hover:bg-blue-200 flex items-center transition-all duration-500 ease-in-out rounded-2xl text-black py-3 px-6 font-bold text-base border-2 leading-6"
@@ -199,11 +194,6 @@ export default function BearsPage() {
                     <Link href="/about">
                       <button className="group flex items-center transition-all duration-500 ease-in-out text-black font-bold text-base ">
                         About Us
-                      </button>
-                    </Link>
-                    <Link href="/bears">
-                      <button className="group flex items-center transition-all duration-500 ease-in-out text-black font-bold text-base ">
-                        My Bears
                       </button>
                     </Link>
 

@@ -195,13 +195,8 @@ function Index() {
               >
                 <div className="flex flex-row">
                   <Link href="/about">
-                    <button className="group flex items-center mr-6 transition-all duration-500 ease-in-out hover:bg-blue-200 rounded-2xl text-black py-3 px-6 font-bold text-base border-2 border-black leading-6">
-                      About Us
-                    </button>
-                  </Link>
-                  <Link href="/bears">
                     <button className="group flex items-center transition-all duration-500 ease-in-out hover:bg-blue-200 rounded-2xl text-black py-3 px-6 font-bold text-base border-2 border-black leading-6">
-                      My Bears
+                      About Us
                     </button>
                   </Link>
                 </div>
@@ -294,11 +289,6 @@ function Index() {
                       <Link href="/about">
                         <button className="group flex items-center transition-all duration-500 ease-in-out text-black font-bold text-base ">
                           About Us
-                        </button>
-                      </Link>
-                      <Link href="/bears">
-                        <button className="group flex items-center transition-all duration-500 ease-in-out text-black font-bold text-base ">
-                          My Bears
                         </button>
                       </Link>
 
