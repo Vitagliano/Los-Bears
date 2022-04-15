@@ -14,12 +14,7 @@ function Team() {
         "https://media.discordapp.net/attachments/948088404967579648/963514316257116181/15.png",
       role: "Marketing and Developer",
     },
-    {
-      name: "Community",
-      image:
-        "https://media.discordapp.net/attachments/948088404967579648/963515044522508298/ak2kw17j.gif",
-      role: "Everyone ❤",
-    },
+
     {
       name: "Kinash",
       image:
@@ -31,6 +26,12 @@ function Team() {
       image:
         "https://media.discordapp.net/attachments/948088404967579648/963515653048901672/unknown.png",
       role: "Web Developer",
+    },
+    {
+      name: "Community",
+      image:
+        "https://media.discordapp.net/attachments/948088404967579648/963515044522508298/ak2kw17j.gif",
+      role: "Everyone ❤",
     },
   ];
   return (
