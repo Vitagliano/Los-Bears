@@ -14,7 +14,7 @@ const AboutUs = () => {
             className="border-2-2 absolute border-opacity-20 border-black h-full border"
             style={{ left: 50 + "%" }}
           ></div>
-          <div className="mb-8 flex justify-between items-center w-full right-timeline">
+          <div className="mb-12 flex justify-between items-center w-full right-timeline">
             <div className="order-1 w-5/12"></div>
             <div className="z-20 flex items-center order-1 bg-white shadow-xl w-12 h-12 rounded-full">
               <h1 className="mx-auto font-semibold text-lg text-black ">50%</h1>
@@ -30,7 +30,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+          <div className="mb-12 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-5/12"></div>
             <div className="z-20 flex items-center order-1 bg-white shadow-xl w-12 h-12 rounded-full">
               <h1 className="mx-auto font-semibold text-lg text-black">75%</h1>
@@ -47,7 +47,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div className="mb-8 flex justify-between items-center w-full right-timeline">
+          <div className="mb-12 flex justify-between items-center w-full right-timeline">
             <div className="order-1 w-5/12"></div>
             <div className="z-20 flex items-center order-1 bg-white shadow-xl w-12 h-12 rounded-full">
               <h1 className="mx-auto font-semibold text-lg text-black">100%</h1>
@@ -60,6 +60,22 @@ const AboutUs = () => {
                 We will donate $1111 to build 5 water pumps.
                 <br />
                 Each of these can supply 5-7 people with water for over 7 years
+              </p>
+            </div>
+          </div>
+
+          <div className="flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div className="order-1 w-5/12"></div>
+            <div className="z-20 flex items-center order-1 bg-white shadow-xl w-12 h-12 rounded-full">
+              <h1 className="mx-auto font-semibold text-lg text-black">+</h1>
+            </div>
+            <div className="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <h3 className="mb-3 font-bold text-black text-xl">
+                For the future
+              </h3>
+              <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                We will have a second collection and all holders with 2 or more
+                Los Bears will receive a free airdrop and whitelist
               </p>
             </div>
           </div>
