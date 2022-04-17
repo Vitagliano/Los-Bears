@@ -388,7 +388,7 @@ function Index() {
                 </div>
               ) : (
                 <div className="relative">
-                  <div className="absolute flex items-center content-cente bg-opacity-70 backdrop-blur-xl leading-6 text-base font-semibold w-72 h-full justify-center">
+                  <div className="absolute flex bg-lightblue items-center content-cente bg-opacity-70 backdrop-blur-xl leading-6 text-base font-semibold w-72 h-full justify-center">
                     Connect your wallet to claim
                   </div>
 
