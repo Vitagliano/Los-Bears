@@ -53,7 +53,7 @@ function Team() {
                   <div className="bg-grey-100 rounded-md">
                     <div
                       style={{
-                        backgroundImage: `url('` + team.image + `');`,
+                        backgroundImage: `url('` + team.image + `')`,
                       }}
                       className="w-72 h-72 relative bg-cover flex justify-center flex-col rounded-md "
                     >

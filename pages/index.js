@@ -28,6 +28,8 @@ function Index() {
 
   const [isWhitelisted, setIsWhiteListed] = useState(false);
 
+  const [showVideo, setShowVideo] = useState(false);
+
   useEffect(() => {
     activate();
   }, []);
@@ -434,14 +436,49 @@ function Index() {
 
             <div className="col-start-2 col-span-2 mt-4 sm:mt-4 md:mt-4 lg:mt-0">
               <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 mb-8">
-                <img
-                  src="https://cdn.discordapp.com/attachments/948088404967579648/960591098793836564/65my4dts.gif"
-                  alt="bear"
-                  className="w-full rounded-xl"
-                />
+                {!showVideo ? (
+                  <div className="flex items-center justify-center relative">
+                    <button
+                      className="absolute z-50 w-16 bg-blue-100 hover:bg-blue-200 rounded-full"
+                      onClick={() => setShowVideo(true)}
+                    >
+                      <svg id="playbtn" x="0px" y="0px" viewBox="0 0 60 60">
+                        <g>
+                          <path
+                            d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+		c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+		C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"
+                          />
+                          <path
+                            d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+		S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+
+                    <div className="absolute z-10 bg-semitransparent w-full h-full rounded-xl"></div>
+                    <img
+                      src="https://media.discordapp.net/attachments/948088404967579648/987741099038769262/ezgif-2-edc45c9aab.gif"
+                      alt="Los Cub"
+                      className="w-full rounded-xl"
+                    />
+                  </div>
+                ) : (
+                  <iframe
+                    width="315"
+                    height="315"
+                    src="https://www.youtube.com/embed/2_CNy1eJBWo?controls=0"
+                    title="Los Cub Presentation"
+                    frameborder="0"
+                    className="w-full rounded-xl"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                )}
                 <img
                   src="https://media.discordapp.net/attachments/948088404967579648/963512786191777862/y2fjf6ja.gif"
-                  alt="bear"
+                  alt="Los Bears"
                   className="w-full rounded-xl"
                 />
               </div>
